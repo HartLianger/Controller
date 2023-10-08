@@ -15,4 +15,12 @@ class PageController extends Controller
     {
         return "Data Mahasiswa Admin";
     }
+
+    public function cobaFacade()
+    {
+        echo \Illuminate\Support\Str::snake('SedangBelajarLaravelUncover');
+        echo "<br>";
+        echo \Illuminate\Support\Str::kebab('SedangBelajarLaravelUncover');
+    }
+
 }
